@@ -47,7 +47,7 @@ const ShowList = (props) => {
                         <h3>
                             <i>Genre: </i>
                             <span className="highlight">{val.show.type}</span>
-                            <span className={`${abc}`} onClick = {(e) => {changeColor("red");props.addFavourites(i);}}><AiOutlineHeart size={24}/></span>    
+                            <span className={`${abc}`} onClick = {(e) => {changeColor("red");props.addFavourites(i);}}><AiOutlineHeart size={24} fill="red" /></span>    
                         </h3>
                         <h2>overview :</h2>
                         <p>{stringTagRemove(i)}</p>
