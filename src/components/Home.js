@@ -13,6 +13,7 @@ const Home = () => {
             <p>• Callback function brings the index of the show clicked for favourites which then helps to send array of data to Favourites components of select shows.  </p>
             <p>• Handling of duplicate selection of Favourite show is done in App component so the show doesnt repeat itself in Favourite Component.  </p>
             <p>• Rating colour is dynamically allocated with values coming from the api.</p>
+            <br />
         </div>
     )
 }
