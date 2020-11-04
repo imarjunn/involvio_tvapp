@@ -43,6 +43,7 @@
     "babel-preset-env": "^1.7.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.5",
-    "jest": "^26.6.2"
+    "jest": "^26.6.2",
+    "react-icons": "^3.11.0"
   }
 }
