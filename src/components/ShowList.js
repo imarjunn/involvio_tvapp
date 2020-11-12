@@ -38,7 +38,7 @@ const ShowList = (props) => {
             <div className="show-container">
             {props.data.map((val,i) => (
                 <div className="show" key={i}>
-                    <img src={val.show.image['original']} alt="" />
+                    <img src={val.show.image ? val.show.image['original'] : "https://images.unsplash.com/photo-1582091652153-eb8f55ff7cd9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80" } alt="" />
                     <div className="show-info">
                         <h3>{val.show.name}</h3>
                         <span className={`rating ${rating(val.show.rating['average'])}`}>{val.show.rating['average'] !== null ? val.show.rating.average : 'NA'}</span>
